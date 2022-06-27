@@ -1,5 +1,5 @@
 // deno-lint-ignore-file no-explicit-any
-import { deepMerge, EventEmitter, REST, RESTOptions } from './deps.ts';
+import { deepMerge, REST, RESTOptions } from './deps.ts';
 import { DEFAULT_CLIENT_OPTIONS, Events } from './Constants.ts';
 import type {
   Channel,

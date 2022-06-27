@@ -1,4 +1,3 @@
-export { EventEmitter } from 'https://deno.land/std@0.132.0/node/events.ts';
 export { deepMerge } from 'https://deno.land/std@0.132.0/collections/deep_merge.ts';
 export { Collection } from 'https://esm.sh/@discordjs/collection@0.6.0';
 // https://deno.land/x/itchatjs_utils/mod.ts
