@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/itchatapp/itchat.js/compare/v1.0.15...v1.0.16) (2023-04-16)
+
+
+### Bug Fixes
+
+* define client user ([7fbe6d9](https://github.com/itchatapp/itchat.js/commit/7fbe6d909a9a68c70b8f704b3e5b1e7c39684b98))
+
 ## [1.0.15](https://github.com/itchatapp/itchat.js/compare/v1.0.14...v1.0.15) (2023-04-16)
 
 
