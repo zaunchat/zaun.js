@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/itchatapp/itchat.js/compare/v1.0.16...v1.1.0) (2023-04-16)
+
+
+### Features
+
+* Support fetch many messages ([39f3e9c](https://github.com/itchatapp/itchat.js/commit/39f3e9c00d51d865bdd81774ccbee8b3e8f7fa48))
+
 ## [1.0.16](https://github.com/itchatapp/itchat.js/compare/v1.0.15...v1.0.16) (2023-04-16)
 
 
