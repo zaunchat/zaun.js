@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/itchatapp/itchat.js/compare/v1.0.14...v1.0.15) (2023-04-16)
+
+
+### Bug Fixes
+
+* bug fixes ([46f3cfb](https://github.com/itchatapp/itchat.js/commit/46f3cfbbf906548f838c9ad4289bcab8d35ac4e0))
+
 ## [1.0.14](https://github.com/itchatapp/itchat.js/compare/v1.0.13...v1.0.14) (2023-04-16)
 
 
