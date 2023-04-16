@@ -20,16 +20,28 @@ export class MessageManager extends BaseManager<Message, APIMessage> {
 		super(channel.client)
 	}
 
-	async fetch(message: MessageResolvable): Promise<Message> {
-		const id = this.resolveId(message)
+	fetch(): Promise<Map<string, Message>>
+	fetch(message: MessageResolvable): Promise<Message>
+	async fetch(message?: MessageResolvable): Promise<Message | Map<string, Message>> {
+		if (!message) {
+			const data = await this.client.api.get(`/messages/${this.channel.id}`)
 
-		if (!id) {
-			throw new TypeError('INVALID_TYPE', 'message', 'MessageResolvable')
+			return data.reduce((cur, prev) => {
+				const msg = this.add(prev)
+				cur.set(msg.id, msg)
+				return cur
+			}, new Map<string, Message>())
+		} else {
+			const id = this.resolveId(message)
+
+			if (!id) {
+				throw new TypeError('INVALID_TYPE', 'message', 'MessageResolvable')
+			}
+
+			const data = await this.client.api.get(`/messages/${this.channel.id}/${id}`)
+
+			return this.add(data)
 		}
-
-		const data = await this.client.api.get(`/channels/${this.channel.id}/messages/${id}`)
-
-		return this.add(data)
 	}
 
 	async delete(message: MessageResolvable): Promise<void> {
@@ -39,7 +51,7 @@ export class MessageManager extends BaseManager<Message, APIMessage> {
 			throw new TypeError('INVALID_TYPE', 'message', 'MessageResolvable')
 		}
 
-		await this.client.api.delete(`/channels/${this.channel.id}/messages/${id}`)
+		await this.client.api.delete(`/messages/${this.channel.id}/${id}`)
 	}
 
 	async send(options: CreateMessageOptions): Promise<Message> {
@@ -58,7 +70,7 @@ export class MessageManager extends BaseManager<Message, APIMessage> {
 			throw new TypeError('INVALID_TYPE', 'message', 'MessageResolvable')
 		}
 
-		const data = await this.client.api.patch(`/channels/${this.channel.id}/messages/${id}`, {
+		const data = await this.client.api.patch(`/messages/${this.channel.id}/${id}`, {
 			body: {
 				content: typeof options === 'object' ? options.content : options
 			}
