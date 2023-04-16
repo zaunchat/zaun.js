@@ -14,8 +14,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-      - name: Setup semantic-release
+      - name: Install packages
         run: npm ci && npm run build
+      - name: Setup semantic-release
         run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog -D
       - name: Release
         env:
