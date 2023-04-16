@@ -1,5 +1,5 @@
 import { Action, Events } from './Action.js'
-import type { APIChannel } from '../deps.js'
+import type { APIChannel } from '@itchatapp/types'
 
 export class ChannelUpdateAction extends Action {
 	async handle(data: APIChannel) {

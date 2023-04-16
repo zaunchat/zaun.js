@@ -1,6 +1,6 @@
 import { BaseManager } from './BaseManager.js'
 import { Channel, ChannelType, DMChannel, GroupChannel } from '../structures/index.js'
-import { APIChannel } from '../deps.js'
+import type { APIChannel } from '@itchatapp/types'
 import { TypeError } from '../errors/index.js'
 
 export type ChannelResolvable = Channel | APIChannel | string

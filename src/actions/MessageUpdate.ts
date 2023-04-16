@@ -1,5 +1,5 @@
 import { Action, Events } from './Action.js'
-import type { APIMessage } from '../deps.js'
+import type { APIMessage } from '@itchatapp/types'
 
 export class MessageUpdateAction extends Action {
 	handle(data: APIMessage) {

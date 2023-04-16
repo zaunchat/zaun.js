@@ -1,6 +1,6 @@
 import { BaseManager } from './BaseManager.js'
 import { DMChannel, User } from '../structures/index.js'
-import { APIUser } from '../deps.js'
+import type { APIUser } from '@itchatapp/types'
 import { TypeError } from '../errors/index.js'
 
 export type UserResolvable = User | APIUser | string

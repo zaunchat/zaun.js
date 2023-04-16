@@ -1,6 +1,6 @@
 import { BaseManager } from './BaseManager.js'
 import { Channel, Message } from '../structures/index.js'
-import { APIMessage } from '../deps.js'
+import type { APIMessage } from '@itchatapp/types'
 import { TypeError } from '../errors/index.js'
 
 export type MessageResolvable = Message | APIMessage | string

@@ -1,8 +1,9 @@
 import { Channel, ChannelType, Overwrite } from './Channel.js'
 import type { Client, User } from '.'
-import { TextBasedChannel } from './interfaces/mod.js'
+import type { TextBasedChannel } from './interfaces/mod.js'
 import { CreateMessageOptions, MessageManager } from '../managers/index.js'
-import { APIChannel, Permissions } from '../deps.js'
+import { Permissions } from '../deps.js'
+import type { APIChannel } from '@itchatapp/types'
 
 type APIGroupChannel = Pick<APIChannel, 'id' | 'recipients' | 'owner_id' | 'name' | 'permissions'>
 
