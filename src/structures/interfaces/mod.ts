@@ -1,1 +1,1 @@
-export * from './TextBasedChannel'
+export * from './TextBasedChannel.js'

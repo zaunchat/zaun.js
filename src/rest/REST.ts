@@ -1,7 +1,7 @@
-import { CDN } from './CDN'
-import { DEFAULT_REST_OPTIONS, Queue, stringifyQuery } from './util/mod'
-import { HTTPError } from './errors/mod'
-import { DeleteRoutes, GetRoutes, merge, PatchRoutes, PostRoutes, PutRoutes } from './deps'
+import { CDN } from './CDN.js'
+import { DEFAULT_REST_OPTIONS, Queue, stringifyQuery } from './util/mod.js'
+import { HTTPError } from './errors/mod.js'
+import { DeleteRoutes, GetRoutes, merge, PatchRoutes, PostRoutes, PutRoutes } from './deps.js'
 
 export interface RESTOptions {
 	app: string

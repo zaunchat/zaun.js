@@ -1,4 +1,4 @@
-import { Base, Client } from './Base'
+import { Base, Client } from './Base.js'
 import type { APIMessage } from '../deps'
 import type { Channel, User } from '.'
 import type { TextBasedChannel } from './interfaces/mod'

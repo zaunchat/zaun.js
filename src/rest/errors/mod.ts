@@ -1,3 +1,3 @@
-export * from './HTTPError'
-export * from './RateLimitError'
-export * from './NotImplemented'
+export * from './HTTPError.js'
+export * from './RateLimitError.js'
+export * from './NotImplemented.js'

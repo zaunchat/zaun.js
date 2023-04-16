@@ -1,4 +1,4 @@
-import { Action, Events } from './Action'
+import { Action, Events } from './Action.js'
 
 export class MessageDeleteAction extends Action {
 	handle(data: { id: string; channel_id: string }) {

@@ -1,4 +1,4 @@
-import type { APIRequest } from '../REST'
+import type { APIRequest } from '../REST.js'
 
 interface ResponseLike {
 	status: number

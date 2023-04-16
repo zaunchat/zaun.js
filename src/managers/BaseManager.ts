@@ -1,5 +1,5 @@
-import type { Client } from '../Client'
-import type { Base } from '../structures'
+import type { Client } from '../Client.js'
+import type { Base } from '../structures/index.js'
 
 export abstract class BaseManager<T extends Base, R extends { id: string }> {
 	readonly cache = new Map<string, T>()

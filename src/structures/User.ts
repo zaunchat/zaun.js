@@ -1,6 +1,6 @@
-import { Base, Client } from './Base'
-import { DMChannel } from '.'
-import { APIUser, Badges } from '../deps'
+import { Base, Client } from './Base.js'
+import { DMChannel } from './index.js'
+import { APIUser, Badges } from '../deps.js'
 
 export enum RelationshipStatus {
 	Friend = 0,

@@ -1,4 +1,4 @@
-import { BitField } from './BitField'
+import { BitField } from './BitField.js'
 
 export type BadgeString = keyof typeof Badges.FLAGS
 export type BadgesResolvable = bigint | number | Badges | BadgeString | BadgesResolvable[]

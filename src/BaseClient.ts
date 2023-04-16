@@ -1,7 +1,7 @@
-import { deepMerge, EventEmitter, REST, RESTOptions } from './deps'
-import { DEFAULT_CLIENT_OPTIONS, Events } from './Constants'
-import type { Channel, Message, User } from './structures'
-import type { Client } from './Client'
+import { deepMerge, EventEmitter, REST, RESTOptions } from './deps.js'
+import { DEFAULT_CLIENT_OPTIONS, Events } from './Constants.js'
+import type { Channel, Message, User } from './structures/index.js'
+import type { Client } from './Client.js'
 
 export interface ClientEvents {
 	channelCreate: [Channel]

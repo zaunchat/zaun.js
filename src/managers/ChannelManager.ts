@@ -1,7 +1,7 @@
-import { BaseManager } from './BaseManager'
-import { Channel, ChannelType, DMChannel, GroupChannel } from '../structures'
-import { APIChannel } from '../deps'
-import { TypeError } from '../errors'
+import { BaseManager } from './BaseManager.js'
+import { Channel, ChannelType, DMChannel, GroupChannel } from '../structures/index.js'
+import { APIChannel } from '../deps.js'
+import { TypeError } from '../errors/index.js'
 
 export type ChannelResolvable = Channel | APIChannel | string
 

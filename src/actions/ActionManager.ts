@@ -1,6 +1,6 @@
-import * as Actions from '.'
-import { Action as BaseAction } from './Action'
-import type { Client } from '../Client'
+import * as Actions from './index.js'
+import { Action as BaseAction } from './Action.js'
+import type { Client } from '../Client.js'
 
 export class ActionManager {
 	#actions = new Map<string, BaseAction>()

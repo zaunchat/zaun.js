@@ -1,7 +1,7 @@
-import type { Client } from '../Client'
-import { ClientUser } from '../structures'
-import { Events, WSEvents } from '../Constants'
-import { Error } from '../errors'
+import type { Client } from '../Client.js'
+import { ClientUser } from '../structures/index.js'
+import { Events, WSEvents } from '../Constants.js'
+import { Error } from '../errors/index.js'
 import WebSocket from 'isomorphic-ws'
 
 declare function clearInterval(id: number): void
@@ -168,7 +168,8 @@ export class WebSocketShard {
 			ws.onerror = this.onError.bind(this)
 			ws.onclose = this.onClose.bind(this)
 
-			ws.addEventListener('close', () => reject())
+			this.client.once('error', reject)
+			ws.addEventListener('close', () => reject('Socket closed'))
 
 			const interval = setInterval(() => {
 				if (this.connected) resolve(this)

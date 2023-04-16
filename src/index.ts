@@ -1,3 +1,3 @@
-export * from './Client'
-export * from './structures'
-export * from './Constants'
+export * from './Client.js'
+export * from './structures/index.js'
+export * from './Constants.js'

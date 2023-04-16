@@ -1,4 +1,4 @@
-import type { RESTOptions } from '../REST'
+import type { RESTOptions } from '../REST.js'
 
 export const DEFAULT_REST_OPTIONS: RESTOptions = {
 	app: 'https://app.itchat.world',

@@ -1,5 +1,5 @@
-import { Action, Events } from './Action'
-import { APIUser } from '../deps'
+import { Action, Events } from './Action.js'
+import { APIUser } from '../deps.js'
 
 export class UserUpdateAction extends Action {
 	handle(data: APIUser) {

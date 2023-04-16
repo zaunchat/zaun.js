@@ -1,7 +1,7 @@
-import { BaseManager } from './BaseManager'
-import { DMChannel, User } from '../structures'
-import { APIUser } from '../deps'
-import { TypeError } from '../errors'
+import { BaseManager } from './BaseManager.js'
+import { DMChannel, User } from '../structures/index.js'
+import { APIUser } from '../deps.js'
+import { TypeError } from '../errors/index.js'
 
 export type UserResolvable = User | APIUser | string
 

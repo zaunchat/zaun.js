@@ -1,5 +1,5 @@
-import { Action, Events } from './Action'
-import type { APIChannel } from '../deps'
+import { Action, Events } from './Action.js'
+import type { APIChannel } from '../deps.js'
 
 export class ChannelCreateAction extends Action {
 	handle(data: APIChannel) {

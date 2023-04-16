@@ -1,5 +1,5 @@
-import { Action, Events } from './Action'
-import type { APIMessage } from '../deps'
+import { Action, Events } from './Action.js'
+import type { APIMessage } from '../deps.js'
 
 export class MessageUpdateAction extends Action {
 	handle(data: APIMessage) {

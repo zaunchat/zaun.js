@@ -1,7 +1,7 @@
-import { Base } from './Base'
+import { Base } from './Base.js'
 import type { GroupChannel } from '.'
 import type { TextBasedChannel } from './interfaces/TextBasedChannel'
-import { Permissions } from '../deps'
+import { Permissions } from '../deps.js'
 
 export enum ChannelType {
 	Unknown = 0,

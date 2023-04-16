@@ -1,4 +1,4 @@
-import { BitField } from './BitField'
+import { BitField } from './BitField.js'
 
 export type PermissionString = keyof typeof Permissions.FLAGS
 export type PermissionsResolvable = bigint | number | Permissions | PermissionString | PermissionsResolvable[]

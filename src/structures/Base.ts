@@ -1,5 +1,5 @@
-import { Client } from '../Client'
-import { BitField, Snowflake } from '../deps'
+import { Client } from '../Client.js'
+import { BitField, Snowflake } from '../deps.js'
 
 export abstract class Base {
 	id!: string

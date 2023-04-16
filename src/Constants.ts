@@ -1,4 +1,4 @@
-import type { ClientOptions } from './BaseClient'
+import type { ClientOptions } from './BaseClient.js'
 
 export enum WSEvents {
 	AUTHENTICATE = 'Authenticate',

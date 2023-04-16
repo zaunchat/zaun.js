@@ -1,8 +1,8 @@
-import { Channel, ChannelType, Overwrite, OverwriteType } from './Channel'
+import { Channel, ChannelType, Overwrite } from './Channel.js'
 import type { Client, User } from '.'
-import { TextBasedChannel } from './interfaces/mod'
-import { CreateMessageOptions, MessageManager } from '../managers'
-import { APIChannel, Permissions } from '../deps'
+import { TextBasedChannel } from './interfaces/mod.js'
+import { CreateMessageOptions, MessageManager } from '../managers/index.js'
+import { APIChannel, Permissions } from '../deps.js'
 
 type APIGroupChannel = Pick<APIChannel, 'id' | 'recipients' | 'owner_id' | 'name' | 'permissions'>
 

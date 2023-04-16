@@ -1,4 +1,4 @@
-import { Messages } from './Messages'
+import { Messages } from './Messages.js'
 
 const createCustomError = (Base: ErrorConstructor) => {
 	return class ItChatError<K extends keyof typeof Messages = keyof typeof Messages> extends Base {

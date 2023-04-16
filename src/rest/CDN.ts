@@ -1,4 +1,4 @@
-import { NotImplemented } from './errors/mod'
+import { NotImplemented } from './errors/mod.js'
 
 export interface CDNOptions {
 	api: string

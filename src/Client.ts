@@ -1,8 +1,8 @@
-import { BaseClient } from './BaseClient'
-import { ChannelManager, UserManager } from './managers'
-import { ActionManager } from './actions/ActionManager'
-import { ClientUser } from './structures'
-import { WebSocketShard } from './websocket'
+import { BaseClient } from './BaseClient.js'
+import { ChannelManager, UserManager } from './managers/index.js'
+import { ActionManager } from './actions/ActionManager.js'
+import { ClientUser } from './structures/index.js'
+import { WebSocketShard } from './websocket/index.js'
 
 export class Client extends BaseClient {
 	readonly actions = new ActionManager(this)

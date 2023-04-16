@@ -1,5 +1,5 @@
-import { Base, Client } from './Base'
-import { APIBot } from '../deps'
+import { Base, Client } from './Base.js'
+import { APIBot } from '../deps.js'
 import type { User } from '.'
 
 export class Bot extends Base {
