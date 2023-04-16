@@ -3,7 +3,6 @@ import type { Base } from '../structures'
 
 export abstract class BaseManager<T extends Base, R extends { id: string }> {
 	readonly cache = new Map<string, T>()
-	// deno-lint-ignore no-explicit-any
 	abstract readonly holds: (new (...args: any[]) => T) | null
 
 	constructor(protected readonly client: Client) {}

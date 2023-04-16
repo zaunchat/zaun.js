@@ -25,7 +25,6 @@ type Count<
 	Matches extends null[] = []
 > = Str extends `${infer _}${SubStr}${infer After}` ? Count<After, SubStr, [...Matches, null]> : Matches['length']
 
-// deno-lint-ignore ban-types
 type DeepPartial<T> = T extends object
 	? {
 			[P in keyof T]?: DeepPartial<T[P]>
@@ -60,7 +59,6 @@ export class REST {
 		return this
 	}
 
-	// deno-lint-ignore no-explicit-any
 	private async request(request: APIRequest): Promise<any> {
 		await this.#queue.wait()
 

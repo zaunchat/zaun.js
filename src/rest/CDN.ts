@@ -1,4 +1,3 @@
-// deno-lint-ignore-file no-unused-vars
 import { NotImplemented } from './errors/mod'
 
 export interface CDNOptions {

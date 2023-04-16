@@ -7,8 +7,6 @@ $ npm i @itchatapp/client
 
 ### Example Usage
 ```ts
-// For deno runtime use this: 
-// import { Client } from 'https://deno.land/x/itchatjs'
 import { Client } from '@itchatapp/client'
 
 const client = new Client()

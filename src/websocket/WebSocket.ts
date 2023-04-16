@@ -1,4 +1,3 @@
-// deno-lint-ignore-file no-explicit-any
 import type { Client } from '../Client'
 import { ClientUser } from '../structures'
 import { Events, WSEvents } from '../Constants'

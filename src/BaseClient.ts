@@ -1,4 +1,3 @@
-// deno-lint-ignore-file no-explicit-any
 import { deepMerge, EventEmitter, REST, RESTOptions } from './deps'
 import { DEFAULT_CLIENT_OPTIONS, Events } from './Constants'
 import type { Channel, Message, User } from './structures'
@@ -49,7 +48,6 @@ export interface ClientOptions {
 	}
 }
 
-// deno-lint-ignore ban-types
 type DeepPartial<T> = T extends object ? { [P in keyof T]?: DeepPartial<T[P]> } : T
 
 export abstract class BaseClient extends EventEmitter {
