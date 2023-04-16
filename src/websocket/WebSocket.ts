@@ -3,7 +3,7 @@ import type { Client } from '../Client'
 import { ClientUser } from '../structures'
 import { Events, WSEvents } from '../Constants'
 import { Error } from '../errors'
-import WebSocket from 'ws'
+import WebSocket from 'isomorphic-ws'
 
 declare function clearInterval(id: number): void
 declare function setInterval(cb: (...args: any[]) => void, delay?: number, ...args: any[]): number
