@@ -1,3 +1,12 @@
+## [1.0.14](https://github.com/itchatapp/itchat.js/compare/v1.0.13...v1.0.14) (2023-04-16)
+
+
+### Performance Improvements
+
+* update ([54c6862](https://github.com/itchatapp/itchat.js/commit/54c68624dc18f95ed87af9c24ce0eb54bf51e5ca))
+* update ([c79f3b6](https://github.com/itchatapp/itchat.js/commit/c79f3b6ec8472f2e7f5e64af38a25c2ce4c98567))
+* update ([fe466c2](https://github.com/itchatapp/itchat.js/commit/fe466c25b8befa3eb194941e225493ece3a151e7))
+
 ## [1.0.13](https://github.com/itchatapp/itchat.js/compare/v1.0.12...v1.0.13) (2023-04-16)
 
 
