@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/itchatapp/itchat.js/compare/v1.0.11...v1.0.12) (2023-04-16)
+
+
+### Bug Fixes
+
+* remove unused deno flags ([2e5dfb7](https://github.com/itchatapp/itchat.js/commit/2e5dfb75e05c41f7677e94bf86efa54bad11c304))
+
 ## [1.0.11](https://github.com/itchatapp/itchat.js/compare/v1.0.10...v1.0.11) (2023-04-16)
 
 
