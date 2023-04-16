@@ -124,6 +124,7 @@ export class WebSocketShard {
 				this.lastPongAcked = true
 
 				this.client.user = new ClientUser(this.client, data.user)
+				this.client.users.cache.set(this.client.user.id, this.client.user)
 
 				for (const user of data.users) {
 					this.client.users.add(user)
