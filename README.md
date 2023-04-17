@@ -1,13 +1,13 @@
-# ItChat.js
+# zaun.js
 
 ### Installation (NodeJS only)
 ```
-$ npm i @itchatapp/client
+$ npm i @zaunchat/client
 ```
 
 ### Example Usage
 ```ts
-import { Client } from '@itchatapp/client'
+import { Client } from '@zaunchat/client'
 
 const client = new Client()
 
@@ -22,4 +22,4 @@ client.login('your-token-here')
 
 
 ### Resources
-- [Docs](https://docs.itchat.world/itchat.js)
+- [Docs](https://docs.zaun.chat/zaun.js)
