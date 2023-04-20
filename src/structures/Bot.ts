@@ -1,5 +1,5 @@
 import { Base, Client } from './Base.js'
-import { APIBot } from '@itchatapp/types'
+import { APIBot } from '@zaunapp/types'
 import type { User } from '.'
 
 export class Bot extends Base {

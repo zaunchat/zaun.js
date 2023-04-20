@@ -1,5 +1,5 @@
 import { Action, Events } from './Action.js'
-import type { APIChannel } from '@itchatapp/types'
+import type { APIChannel } from '@zaunapp/types'
 
 export class ChannelCreateAction extends Action {
 	handle(data: APIChannel) {

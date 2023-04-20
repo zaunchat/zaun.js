@@ -32,14 +32,14 @@ export enum Events {
 
 export const DEFAULT_CLIENT_OPTIONS: ClientOptions = {
 	ws: {
-		url: 'wss://api.itchat.world/ws',
+		url: 'wss://api.zaun.chat/ws',
 		heartbeat: 0,
 		reconnect: true
 	},
 	rest: {
-		api: 'https://api.itchat.world',
-		app: 'https://app.itchat.world',
-		cdn: 'https://cdn.itchat.world',
+		api: 'https://api.zaun.chat',
+		app: 'https://app.zaun.chat',
+		cdn: 'https://cdn.zaun.chat',
 		timeout: 15_000,
 		retries: 3
 	}

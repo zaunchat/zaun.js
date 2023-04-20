@@ -1,5 +1,5 @@
 import { Action, Events } from './Action.js'
-import type { APIMessage } from '@itchatapp/types'
+import type { APIMessage } from '@zaunapp/types'
 
 export class MessageUpdateAction extends Action {
 	handle(data: APIMessage) {

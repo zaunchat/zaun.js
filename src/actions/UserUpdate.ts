@@ -1,5 +1,5 @@
 import { Action, Events } from './Action.js'
-import type { APIUser } from '@itchatapp/types'
+import type { APIUser } from '@zaunapp/types'
 
 export class UserUpdateAction extends Action {
 	handle(data: APIUser) {

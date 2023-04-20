@@ -2,7 +2,7 @@ import { Client, User } from '.'
 import { Channel, ChannelType } from './Channel.js'
 import { TextBasedChannel } from './interfaces/mod.js'
 import { CreateMessageOptions, MessageManager } from '../managers/index.js'
-import { APIChannel } from '@itchatapp/types'
+import { APIChannel } from '@zaunapp/types'
 
 type APIDMChannel = Pick<APIChannel, 'id' | 'recipients'>
 

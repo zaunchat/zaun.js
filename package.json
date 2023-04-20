@@ -1,7 +1,7 @@
 {
-  "name": "@itchatapp/client",
+  "name": "@zaunapp/client",
   "version": "1.1.0",
-  "description": "A JS/TS library to interacting with ItChat API",
+  "description": "A JS/TS library to interacting with Zaun API",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -16,8 +16,8 @@
     "ws": "^8.13.0"
   },
   "devDependencies": {
-    "@itchatapp/types": "^1.2.10",
     "@types/ws": "^8.5.4",
+    "@zaunapp/types": "^1.2.13",
     "prettier": "^2.8.7",
     "typescript": "^5.0.4"
   },

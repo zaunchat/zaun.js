@@ -1,7 +1,7 @@
 import { Base, type Client } from './Base.js'
 import type { DMChannel } from './index.js'
 import { Badges } from '../deps.js'
-import type { APIUser } from '@itchatapp/types'
+import type { APIUser } from '@zaunapp/types'
 
 export enum RelationshipStatus {
 	Friend = 0,

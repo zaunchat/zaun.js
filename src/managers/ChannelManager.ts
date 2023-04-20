@@ -1,6 +1,6 @@
 import { BaseManager } from './BaseManager.js'
 import { Channel, ChannelType, DMChannel, GroupChannel } from '../structures/index.js'
-import type { APIChannel } from '@itchatapp/types'
+import type { APIChannel } from '@zaunapp/types'
 import { TypeError } from '../errors/index.js'
 
 export type ChannelResolvable = Channel | APIChannel | string
@@ -32,8 +32,6 @@ export class ChannelManager extends BaseManager<Channel, APIChannel> {
 	}
 
 	remove(id: string): void {
-		const channel = this.cache.get(id)
-
 		super.remove(id)
 	}
 

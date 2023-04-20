@@ -3,7 +3,7 @@ import type { Client, User } from '.'
 import type { TextBasedChannel } from './interfaces/mod.js'
 import { CreateMessageOptions, MessageManager } from '../managers/index.js'
 import { Permissions } from '../deps.js'
-import type { APIChannel } from '@itchatapp/types'
+import type { APIChannel } from '@zaunapp/types'
 
 type APIGroupChannel = Pick<APIChannel, 'id' | 'recipients' | 'owner_id' | 'name' | 'permissions'>
 

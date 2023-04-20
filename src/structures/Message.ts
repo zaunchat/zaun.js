@@ -1,5 +1,5 @@
 import { Base, Client } from './Base.js'
-import type { APIMessage } from '@itchatapp/types'
+import type { APIMessage } from '@zaunapp/types'
 import type { Channel, User } from '.'
 import type { TextBasedChannel } from './interfaces/mod'
 import type { EditMessageOptions } from '../managers/MessageManager'
