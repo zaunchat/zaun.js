@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/zaunchat/zaun.js/compare/v1.1.0...v1.1.1) (2023-04-20)
+
+
+### Performance Improvements
+
+* Rename package ([443c2fd](https://github.com/zaunchat/zaun.js/commit/443c2fd745b598daf33aa2c937204c2035eebf95))
+
 # [1.1.0](https://github.com/itchatapp/itchat.js/compare/v1.0.16...v1.1.0) (2023-04-16)
 
 
