@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/zaunchat/zaun.js/compare/v1.1.1...v1.1.2) (2023-04-20)
+
+
+### Bug Fixes
+
+* **npm:** Make package public ([eee8333](https://github.com/zaunchat/zaun.js/commit/eee833391f53a00858398d1e052ffe1c5836c891))
+
 ## [1.1.1](https://github.com/zaunchat/zaun.js/compare/v1.1.0...v1.1.1) (2023-04-20)
 
 
