@@ -2,12 +2,12 @@
 
 ### Installation (NodeJS only)
 ```
-$ npm i @zaunchat/client
+$ npm i @zaunapp/client
 ```
 
 ### Example Usage
 ```ts
-import { Client } from '@zaunchat/client'
+import { Client } from '@zaunapp/client'
 
 const client = new Client()
 
